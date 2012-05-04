@@ -38,21 +38,21 @@
 		D188596A15547DAF0088BA7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D188596C15547DAF0088BA7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D188596E15547DAF0088BA7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D188597215547DAF0088BA7A /* Moretesting-Info.plist */ = {isa = PBXFileReference; path = "Moretesting-Info.plist"; sourceTree = "<group>"; };
+		D188597215547DAF0088BA7A /* Moretesting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Moretesting-Info.plist"; sourceTree = "<group>"; };
 		D188597415547DAF0088BA7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D188597615547DAF0088BA7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D188597815547DAF0088BA7A /* Moretesting-Prefix.pch */ = {isa = PBXFileReference; path = "Moretesting-Prefix.pch"; sourceTree = "<group>"; };
-		D188597915547DAF0088BA7A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D188597815547DAF0088BA7A /* Moretesting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Moretesting-Prefix.pch"; sourceTree = "<group>"; };
+		D188597915547DAF0088BA7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D188597A15547DAF0088BA7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D188597D15547DAF0088BA7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		D188598015547DB00088BA7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		D188598215547DB00088BA7A /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		D188598215547DB00088BA7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D188598315547DB00088BA7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D188598A15547DB00088BA7A /* MoretestingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoretestingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D188598B15547DB00088BA7A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		D188599315547DB00088BA7A /* MoretestingTests-Info.plist */ = {isa = PBXFileReference; path = "MoretestingTests-Info.plist"; sourceTree = "<group>"; };
+		D188599315547DB00088BA7A /* MoretestingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoretestingTests-Info.plist"; sourceTree = "<group>"; };
 		D188599515547DB00088BA7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D188599715547DB00088BA7A /* MoretestingTests.h */ = {isa = PBXFileReference; path = MoretestingTests.h; sourceTree = "<group>"; };
+		D188599715547DB00088BA7A /* MoretestingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoretestingTests.h; sourceTree = "<group>"; };
 		D188599815547DB00088BA7A /* MoretestingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoretestingTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
