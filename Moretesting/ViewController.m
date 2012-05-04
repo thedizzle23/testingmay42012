@@ -23,6 +23,8 @@
     [super viewDidLoad];
     
     [self.view setTag:1];
+    
+    ///more code is to be changed currently
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
