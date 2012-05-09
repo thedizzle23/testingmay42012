@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D14AF158155ADFB6000CCCB1 /* ThisController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AF156155ADFB6000CCCB1 /* ThisController.m */; };
 		D14AF159155ADFB6000CCCB1 /* ThisController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D14AF157155ADFB6000CCCB1 /* ThisController.xib */; };
+		D14AF15E155AE083000CCCB1 /* SECONDVIEWCONTROLLER.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AF15C155AE083000CCCB1 /* SECONDVIEWCONTROLLER.m */; };
+		D14AF15F155AE083000CCCB1 /* SECONDVIEWCONTROLLER.xib in Resources */ = {isa = PBXBuildFile; fileRef = D14AF15D155AE083000CCCB1 /* SECONDVIEWCONTROLLER.xib */; };
 		D188596B15547DAF0088BA7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D188596A15547DAF0088BA7A /* UIKit.framework */; };
 		D188596D15547DAF0088BA7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D188596C15547DAF0088BA7A /* Foundation.framework */; };
 		D188596F15547DAF0088BA7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D188596E15547DAF0088BA7A /* CoreGraphics.framework */; };
@@ -39,6 +41,9 @@
 		D14AF155155ADFB6000CCCB1 /* ThisController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThisController.h; sourceTree = "<group>"; };
 		D14AF156155ADFB6000CCCB1 /* ThisController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThisController.m; sourceTree = "<group>"; };
 		D14AF157155ADFB6000CCCB1 /* ThisController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThisController.xib; sourceTree = "<group>"; };
+		D14AF15B155AE083000CCCB1 /* SECONDVIEWCONTROLLER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SECONDVIEWCONTROLLER.h; sourceTree = "<group>"; };
+		D14AF15C155AE083000CCCB1 /* SECONDVIEWCONTROLLER.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SECONDVIEWCONTROLLER.m; sourceTree = "<group>"; };
+		D14AF15D155AE083000CCCB1 /* SECONDVIEWCONTROLLER.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SECONDVIEWCONTROLLER.xib; sourceTree = "<group>"; };
 		D188596615547DAF0088BA7A /* Moretesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moretesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D188596A15547DAF0088BA7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D188596C15547DAF0088BA7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +93,9 @@
 		D188595B15547DAF0088BA7A = {
 			isa = PBXGroup;
 			children = (
+				D14AF15B155AE083000CCCB1 /* SECONDVIEWCONTROLLER.h */,
+				D14AF15C155AE083000CCCB1 /* SECONDVIEWCONTROLLER.m */,
+				D14AF15D155AE083000CCCB1 /* SECONDVIEWCONTROLLER.xib */,
 				D14AF155155ADFB6000CCCB1 /* ThisController.h */,
 				D14AF156155ADFB6000CCCB1 /* ThisController.m */,
 				D14AF157155ADFB6000CCCB1 /* ThisController.xib */,
@@ -237,6 +245,7 @@
 				D188597E15547DAF0088BA7A /* MainStoryboard_iPhone.storyboard in Resources */,
 				D188598115547DB00088BA7A /* MainStoryboard_iPad.storyboard in Resources */,
 				D14AF159155ADFB6000CCCB1 /* ThisController.xib in Resources */,
+				D14AF15F155AE083000CCCB1 /* SECONDVIEWCONTROLLER.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +284,7 @@
 				D188597B15547DAF0088BA7A /* AppDelegate.m in Sources */,
 				D188598415547DB00088BA7A /* ViewController.m in Sources */,
 				D14AF158155ADFB6000CCCB1 /* ThisController.m in Sources */,
+				D14AF15E155AE083000CCCB1 /* SECONDVIEWCONTROLLER.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
