@@ -8,6 +8,29 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SECONDVIEWCONTROLLER : UIViewController
+@interface SECONDVIEWCONTROLLER : UIViewController {
+    
+    
+    IBOutlet UIWebView *webView;
+    
+    IBOutlet UIWebView *webViewTwo;
+    
+    IBOutlet UISwitch *switchTwo;
+    
+    IBOutlet UILabel *labelTwo;
+    
+    IBOutlet UILabel *secondapp;
+    IBOutlet UILabel *secondtextbox;
+    
+    
+    
+}
+
+
+
+-(IBAction)changeAction:(id)sender;
+
+-(IBAction)loadURL:(id)sender;
+
 
 @end
