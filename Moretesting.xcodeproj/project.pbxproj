@@ -40,6 +40,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D1163D2C155DBA0A00F4261C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1163D27155DBA0900F4261C /* moredirectorytess.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1163CEB155DBA0900F4261C;
+			remoteInfo = moredirectorytess;
+		};
+		D1163D2E155DBA0A00F4261C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1163D27155DBA0900F4261C /* moredirectorytess.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1163D0F155DBA0900F4261C;
+			remoteInfo = moredirectorytessTests;
+		};
 		D188598F15547DB00088BA7A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D188595D15547DAF0088BA7A /* Project object */;
@@ -50,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D1163D27155DBA0900F4261C /* moredirectorytess.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = moredirectorytess.xcodeproj; path = moredirectorytess/moredirectorytess.xcodeproj; sourceTree = "<group>"; };
 		D14AF155155ADFB6000CCCB1 /* ThisController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThisController.h; sourceTree = "<group>"; };
 		D14AF156155ADFB6000CCCB1 /* ThisController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThisController.m; sourceTree = "<group>"; };
 		D14AF157155ADFB6000CCCB1 /* ThisController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThisController.xib; sourceTree = "<group>"; };
@@ -120,9 +135,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1163D28155DBA0900F4261C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1163D2D155DBA0A00F4261C /* moredirectorytess.app */,
+				D1163D2F155DBA0A00F4261C /* moredirectorytessTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D188595B15547DAF0088BA7A = {
 			isa = PBXGroup;
 			children = (
+				D1163D27155DBA0900F4261C /* moredirectorytess.xcodeproj */,
 				D1C1F499155DB7D60019D988 /* MainControllerMin.h */,
 				D1C1F49A155DB7D60019D988 /* MainControllerMin.m */,
 				D1C1F49B155DB7D60019D988 /* MainControllerMin.xib */,
@@ -276,6 +301,12 @@
 			mainGroup = D188595B15547DAF0088BA7A;
 			productRefGroup = D188596715547DAF0088BA7A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D1163D28155DBA0900F4261C /* Products */;
+					ProjectRef = D1163D27155DBA0900F4261C /* moredirectorytess.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D188596515547DAF0088BA7A /* Moretesting */,
@@ -283,6 +314,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D1163D2D155DBA0A00F4261C /* moredirectorytess.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = moredirectorytess.app;
+			remoteRef = D1163D2C155DBA0A00F4261C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D1163D2F155DBA0A00F4261C /* moredirectorytessTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = moredirectorytessTests.octest;
+			remoteRef = D1163D2E155DBA0A00F4261C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D188596415547DAF0088BA7A /* Resources */ = {

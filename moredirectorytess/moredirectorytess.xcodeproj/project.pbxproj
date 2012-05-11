@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1163CF0155DBA0900F4261C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1163CEF155DBA0900F4261C /* UIKit.framework */; };
+		D1163CF2155DBA0900F4261C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1163CF1155DBA0900F4261C /* Foundation.framework */; };
+		D1163CF4155DBA0900F4261C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1163CF3155DBA0900F4261C /* CoreGraphics.framework */; };
+		D1163CFA155DBA0900F4261C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1163CF8155DBA0900F4261C /* InfoPlist.strings */; };
+		D1163CFC155DBA0900F4261C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1163CFB155DBA0900F4261C /* main.m */; };
+		D1163D00155DBA0900F4261C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1163CFF155DBA0900F4261C /* AppDelegate.m */; };
+		D1163D03155DBA0900F4261C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1163D01155DBA0900F4261C /* MainStoryboard_iPhone.storyboard */; };
+		D1163D06155DBA0900F4261C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1163D04155DBA0900F4261C /* MainStoryboard_iPad.storyboard */; };
+		D1163D09155DBA0900F4261C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1163D08155DBA0900F4261C /* ViewController.m */; };
+		D1163D11155DBA0900F4261C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1163D10155DBA0900F4261C /* SenTestingKit.framework */; };
+		D1163D12155DBA0900F4261C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1163CEF155DBA0900F4261C /* UIKit.framework */; };
+		D1163D13155DBA0900F4261C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1163CF1155DBA0900F4261C /* Foundation.framework */; };
+		D1163D1B155DBA0900F4261C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1163D19155DBA0900F4261C /* InfoPlist.strings */; };
+		D1163D1E155DBA0900F4261C /* moredirectorytessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1163D1D155DBA0900F4261C /* moredirectorytessTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1163D14155DBA0900F4261C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1163CE2155DBA0900F4261C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1163CEA155DBA0900F4261C;
+			remoteInfo = moredirectorytess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1163CEB155DBA0900F4261C /* moredirectorytess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moredirectorytess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1163CEF155DBA0900F4261C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D1163CF1155DBA0900F4261C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D1163CF3155DBA0900F4261C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D1163CF7155DBA0900F4261C /* moredirectorytess-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "moredirectorytess-Info.plist"; sourceTree = "<group>"; };
+		D1163CF9155DBA0900F4261C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1163CFB155DBA0900F4261C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1163CFD155DBA0900F4261C /* moredirectorytess-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "moredirectorytess-Prefix.pch"; sourceTree = "<group>"; };
+		D1163CFE155DBA0900F4261C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1163CFF155DBA0900F4261C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1163D02155DBA0900F4261C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D1163D05155DBA0900F4261C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D1163D07155DBA0900F4261C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D1163D08155DBA0900F4261C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1163D0F155DBA0900F4261C /* moredirectorytessTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moredirectorytessTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1163D10155DBA0900F4261C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D1163D18155DBA0900F4261C /* moredirectorytessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "moredirectorytessTests-Info.plist"; sourceTree = "<group>"; };
+		D1163D1A155DBA0900F4261C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1163D1C155DBA0900F4261C /* moredirectorytessTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = moredirectorytessTests.h; sourceTree = "<group>"; };
+		D1163D1D155DBA0900F4261C /* moredirectorytessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moredirectorytessTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1163CE8155DBA0900F4261C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1163CF0155DBA0900F4261C /* UIKit.framework in Frameworks */,
+				D1163CF2155DBA0900F4261C /* Foundation.framework in Frameworks */,
+				D1163CF4155DBA0900F4261C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1163D0B155DBA0900F4261C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1163D11155DBA0900F4261C /* SenTestingKit.framework in Frameworks */,
+				D1163D12155DBA0900F4261C /* UIKit.framework in Frameworks */,
+				D1163D13155DBA0900F4261C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1163CE0155DBA0900F4261C = {
+			isa = PBXGroup;
+			children = (
+				D1163CF5155DBA0900F4261C /* moredirectorytess */,
+				D1163D16155DBA0900F4261C /* moredirectorytessTests */,
+				D1163CEE155DBA0900F4261C /* Frameworks */,
+				D1163CEC155DBA0900F4261C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1163CEC155DBA0900F4261C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1163CEB155DBA0900F4261C /* moredirectorytess.app */,
+				D1163D0F155DBA0900F4261C /* moredirectorytessTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1163CEE155DBA0900F4261C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1163CEF155DBA0900F4261C /* UIKit.framework */,
+				D1163CF1155DBA0900F4261C /* Foundation.framework */,
+				D1163CF3155DBA0900F4261C /* CoreGraphics.framework */,
+				D1163D10155DBA0900F4261C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1163CF5155DBA0900F4261C /* moredirectorytess */ = {
+			isa = PBXGroup;
+			children = (
+				D1163CFE155DBA0900F4261C /* AppDelegate.h */,
+				D1163CFF155DBA0900F4261C /* AppDelegate.m */,
+				D1163D01155DBA0900F4261C /* MainStoryboard_iPhone.storyboard */,
+				D1163D04155DBA0900F4261C /* MainStoryboard_iPad.storyboard */,
+				D1163D07155DBA0900F4261C /* ViewController.h */,
+				D1163D08155DBA0900F4261C /* ViewController.m */,
+				D1163CF6155DBA0900F4261C /* Supporting Files */,
+			);
+			path = moredirectorytess;
+			sourceTree = "<group>";
+		};
+		D1163CF6155DBA0900F4261C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1163CF7155DBA0900F4261C /* moredirectorytess-Info.plist */,
+				D1163CF8155DBA0900F4261C /* InfoPlist.strings */,
+				D1163CFB155DBA0900F4261C /* main.m */,
+				D1163CFD155DBA0900F4261C /* moredirectorytess-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1163D16155DBA0900F4261C /* moredirectorytessTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1163D1C155DBA0900F4261C /* moredirectorytessTests.h */,
+				D1163D1D155DBA0900F4261C /* moredirectorytessTests.m */,
+				D1163D17155DBA0900F4261C /* Supporting Files */,
+			);
+			path = moredirectorytessTests;
+			sourceTree = "<group>";
+		};
+		D1163D17155DBA0900F4261C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1163D18155DBA0900F4261C /* moredirectorytessTests-Info.plist */,
+				D1163D19155DBA0900F4261C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1163CEA155DBA0900F4261C /* moredirectorytess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1163D21155DBA0900F4261C /* Build configuration list for PBXNativeTarget "moredirectorytess" */;
+			buildPhases = (
+				D1163CE7155DBA0900F4261C /* Sources */,
+				D1163CE8155DBA0900F4261C /* Frameworks */,
+				D1163CE9155DBA0900F4261C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moredirectorytess;
+			productName = moredirectorytess;
+			productReference = D1163CEB155DBA0900F4261C /* moredirectorytess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1163D0E155DBA0900F4261C /* moredirectorytessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1163D24155DBA0900F4261C /* Build configuration list for PBXNativeTarget "moredirectorytessTests" */;
+			buildPhases = (
+				D1163D0A155DBA0900F4261C /* Sources */,
+				D1163D0B155DBA0900F4261C /* Frameworks */,
+				D1163D0C155DBA0900F4261C /* Resources */,
+				D1163D0D155DBA0900F4261C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1163D15155DBA0900F4261C /* PBXTargetDependency */,
+			);
+			name = moredirectorytessTests;
+			productName = moredirectorytessTests;
+			productReference = D1163D0F155DBA0900F4261C /* moredirectorytessTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1163CE2155DBA0900F4261C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "DevelopMental IPhone Applications";
+			};
+			buildConfigurationList = D1163CE5155DBA0900F4261C /* Build configuration list for PBXProject "moredirectorytess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1163CE0155DBA0900F4261C;
+			productRefGroup = D1163CEC155DBA0900F4261C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1163CEA155DBA0900F4261C /* moredirectorytess */,
+				D1163D0E155DBA0900F4261C /* moredirectorytessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1163CE9155DBA0900F4261C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1163CFA155DBA0900F4261C /* InfoPlist.strings in Resources */,
+				D1163D03155DBA0900F4261C /* MainStoryboard_iPhone.storyboard in Resources */,
+				D1163D06155DBA0900F4261C /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1163D0C155DBA0900F4261C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1163D1B155DBA0900F4261C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D1163D0D155DBA0900F4261C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1163CE7155DBA0900F4261C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1163CFC155DBA0900F4261C /* main.m in Sources */,
+				D1163D00155DBA0900F4261C /* AppDelegate.m in Sources */,
+				D1163D09155DBA0900F4261C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1163D0A155DBA0900F4261C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1163D1E155DBA0900F4261C /* moredirectorytessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1163D15155DBA0900F4261C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1163CEA155DBA0900F4261C /* moredirectorytess */;
+			targetProxy = D1163D14155DBA0900F4261C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1163CF8155DBA0900F4261C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1163CF9155DBA0900F4261C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D1163D01155DBA0900F4261C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1163D02155DBA0900F4261C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D1163D04155DBA0900F4261C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1163D05155DBA0900F4261C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D1163D19155DBA0900F4261C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1163D1A155DBA0900F4261C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1163D1F155DBA0900F4261C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1163D20155DBA0900F4261C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1163D22155DBA0900F4261C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "moredirectorytess/moredirectorytess-Prefix.pch";
+				INFOPLIST_FILE = "moredirectorytess/moredirectorytess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D1163D23155DBA0900F4261C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "moredirectorytess/moredirectorytess-Prefix.pch";
+				INFOPLIST_FILE = "moredirectorytess/moredirectorytess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D1163D25155DBA0900F4261C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/moredirectorytess.app/moredirectorytess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "moredirectorytess/moredirectorytess-Prefix.pch";
+				INFOPLIST_FILE = "moredirectorytessTests/moredirectorytessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D1163D26155DBA0900F4261C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/moredirectorytess.app/moredirectorytess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "moredirectorytess/moredirectorytess-Prefix.pch";
+				INFOPLIST_FILE = "moredirectorytessTests/moredirectorytessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1163CE5155DBA0900F4261C /* Build configuration list for PBXProject "moredirectorytess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1163D1F155DBA0900F4261C /* Debug */,
+				D1163D20155DBA0900F4261C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1163D21155DBA0900F4261C /* Build configuration list for PBXNativeTarget "moredirectorytess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1163D22155DBA0900F4261C /* Debug */,
+				D1163D23155DBA0900F4261C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1163D24155DBA0900F4261C /* Build configuration list for PBXNativeTarget "moredirectorytessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1163D25155DBA0900F4261C /* Debug */,
+				D1163D26155DBA0900F4261C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1163CE2155DBA0900F4261C /* Project object */;
+}
