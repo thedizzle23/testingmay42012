@@ -25,6 +25,16 @@
 		D188598E15547DB00088BA7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D188596C15547DAF0088BA7A /* Foundation.framework */; };
 		D188599615547DB00088BA7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D188599415547DB00088BA7A /* InfoPlist.strings */; };
 		D188599915547DB00088BA7A /* MoretestingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D188599815547DB00088BA7A /* MoretestingTests.m */; };
+		D1E6B5CA155CD784005DF253 /* GoodWork Rob.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E6B5C8155CD784005DF253 /* GoodWork Rob.m */; };
+		D1E6B5CB155CD784005DF253 /* GoodWork Rob.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E6B5C9155CD784005DF253 /* GoodWork Rob.xib */; };
+		D1E6B5D0155CD78F005DF253 /* UncommittedChanges.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E6B5CE155CD78F005DF253 /* UncommittedChanges.m */; };
+		D1E6B5D1155CD78F005DF253 /* UncommittedChanges.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E6B5CF155CD78F005DF253 /* UncommittedChanges.xib */; };
+		D1E6B5D5155CD79D005DF253 /* DebugDay2012.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E6B5D3155CD79D005DF253 /* DebugDay2012.m */; };
+		D1E6B5D6155CD79D005DF253 /* DebugDay2012.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E6B5D4155CD79D005DF253 /* DebugDay2012.xib */; };
+		D1E6B5DA155CD7BE005DF253 /* BackupfilesAllController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E6B5D8155CD7BE005DF253 /* BackupfilesAllController.m */; };
+		D1E6B5DB155CD7BE005DF253 /* BackupfilesAllController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E6B5D9155CD7BE005DF253 /* BackupfilesAllController.xib */; };
+		D1E6B5DF155CD7CD005DF253 /* Applogiccontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E6B5DD155CD7CD005DF253 /* Applogiccontroller.m */; };
+		D1E6B5E0155CD7CD005DF253 /* Applogiccontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E6B5DE155CD7CD005DF253 /* Applogiccontroller.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +74,21 @@
 		D188599515547DB00088BA7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D188599715547DB00088BA7A /* MoretestingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoretestingTests.h; sourceTree = "<group>"; };
 		D188599815547DB00088BA7A /* MoretestingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoretestingTests.m; sourceTree = "<group>"; };
+		D1E6B5C7155CD784005DF253 /* GoodWork Rob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GoodWork Rob.h"; sourceTree = "<group>"; };
+		D1E6B5C8155CD784005DF253 /* GoodWork Rob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GoodWork Rob.m"; sourceTree = "<group>"; };
+		D1E6B5C9155CD784005DF253 /* GoodWork Rob.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "GoodWork Rob.xib"; sourceTree = "<group>"; };
+		D1E6B5CD155CD78F005DF253 /* UncommittedChanges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncommittedChanges.h; sourceTree = "<group>"; };
+		D1E6B5CE155CD78F005DF253 /* UncommittedChanges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncommittedChanges.m; sourceTree = "<group>"; };
+		D1E6B5CF155CD78F005DF253 /* UncommittedChanges.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UncommittedChanges.xib; sourceTree = "<group>"; };
+		D1E6B5D2155CD79D005DF253 /* DebugDay2012.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugDay2012.h; sourceTree = "<group>"; };
+		D1E6B5D3155CD79D005DF253 /* DebugDay2012.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugDay2012.m; sourceTree = "<group>"; };
+		D1E6B5D4155CD79D005DF253 /* DebugDay2012.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DebugDay2012.xib; sourceTree = "<group>"; };
+		D1E6B5D7155CD7BE005DF253 /* BackupfilesAllController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackupfilesAllController.h; sourceTree = "<group>"; };
+		D1E6B5D8155CD7BE005DF253 /* BackupfilesAllController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackupfilesAllController.m; sourceTree = "<group>"; };
+		D1E6B5D9155CD7BE005DF253 /* BackupfilesAllController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackupfilesAllController.xib; sourceTree = "<group>"; };
+		D1E6B5DC155CD7CD005DF253 /* Applogiccontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Applogiccontroller.h; sourceTree = "<group>"; };
+		D1E6B5DD155CD7CD005DF253 /* Applogiccontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Applogiccontroller.m; sourceTree = "<group>"; };
+		D1E6B5DE155CD7CD005DF253 /* Applogiccontroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Applogiccontroller.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +118,21 @@
 		D188595B15547DAF0088BA7A = {
 			isa = PBXGroup;
 			children = (
+				D1E6B5DC155CD7CD005DF253 /* Applogiccontroller.h */,
+				D1E6B5DD155CD7CD005DF253 /* Applogiccontroller.m */,
+				D1E6B5DE155CD7CD005DF253 /* Applogiccontroller.xib */,
+				D1E6B5D7155CD7BE005DF253 /* BackupfilesAllController.h */,
+				D1E6B5D8155CD7BE005DF253 /* BackupfilesAllController.m */,
+				D1E6B5D9155CD7BE005DF253 /* BackupfilesAllController.xib */,
+				D1E6B5D2155CD79D005DF253 /* DebugDay2012.h */,
+				D1E6B5D3155CD79D005DF253 /* DebugDay2012.m */,
+				D1E6B5D4155CD79D005DF253 /* DebugDay2012.xib */,
+				D1E6B5CD155CD78F005DF253 /* UncommittedChanges.h */,
+				D1E6B5CE155CD78F005DF253 /* UncommittedChanges.m */,
+				D1E6B5CF155CD78F005DF253 /* UncommittedChanges.xib */,
+				D1E6B5C7155CD784005DF253 /* GoodWork Rob.h */,
+				D1E6B5C8155CD784005DF253 /* GoodWork Rob.m */,
+				D1E6B5C9155CD784005DF253 /* GoodWork Rob.xib */,
 				D14AF15B155AE083000CCCB1 /* SECONDVIEWCONTROLLER.h */,
 				D14AF15C155AE083000CCCB1 /* SECONDVIEWCONTROLLER.m */,
 				D14AF15D155AE083000CCCB1 /* SECONDVIEWCONTROLLER.xib */,
@@ -246,6 +286,11 @@
 				D188598115547DB00088BA7A /* MainStoryboard_iPad.storyboard in Resources */,
 				D14AF159155ADFB6000CCCB1 /* ThisController.xib in Resources */,
 				D14AF15F155AE083000CCCB1 /* SECONDVIEWCONTROLLER.xib in Resources */,
+				D1E6B5CB155CD784005DF253 /* GoodWork Rob.xib in Resources */,
+				D1E6B5D1155CD78F005DF253 /* UncommittedChanges.xib in Resources */,
+				D1E6B5D6155CD79D005DF253 /* DebugDay2012.xib in Resources */,
+				D1E6B5DB155CD7BE005DF253 /* BackupfilesAllController.xib in Resources */,
+				D1E6B5E0155CD7CD005DF253 /* Applogiccontroller.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +330,11 @@
 				D188598415547DB00088BA7A /* ViewController.m in Sources */,
 				D14AF158155ADFB6000CCCB1 /* ThisController.m in Sources */,
 				D14AF15E155AE083000CCCB1 /* SECONDVIEWCONTROLLER.m in Sources */,
+				D1E6B5CA155CD784005DF253 /* GoodWork Rob.m in Sources */,
+				D1E6B5D0155CD78F005DF253 /* UncommittedChanges.m in Sources */,
+				D1E6B5D5155CD79D005DF253 /* DebugDay2012.m in Sources */,
+				D1E6B5DA155CD7BE005DF253 /* BackupfilesAllController.m in Sources */,
+				D1E6B5DF155CD7CD005DF253 /* Applogiccontroller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
